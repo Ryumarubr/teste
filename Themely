@@ -54,7 +54,7 @@ std::map<std::string, std::wstring> PORTUGUESE = {
 	// THEME.CPP
 	{"no_desc",             L"[Esse tema nao possui descrição.]"},
 	{"unknown",             L"Desconhecido"},
-	{"install_reading",     L"Leitura %s..."},
+	{"install_reading",     L"Lendo %s..."},
 	{"install_writing",     L"Escrevendo em %s..."},
 
 	// ERRORS
