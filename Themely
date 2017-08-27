@@ -37,7 +37,7 @@ std::map<std::string, std::wstring> PORTUGUESE = {
 	{"dump_prompt_warn",    L""},
 	{"playing",             L"Reproduzindo..."},
 	{"no_themes_1",         L"Nenhum tema encontrado!"},
-	{"no_themes_2",         L"Toque no ícone de download no topo"},
+	{"no_themes_2",         L"Toque no ícone de download na parte superior"},
 	{"no_themes_3",         L"Para acessar o navegador da 3DSThem.es."},
 	{"shuffle_count",       L"%i/10 tema%ls selecionado para exibição aleatória"},
 	{"qr_explain_1",        L"Escaneie o QR-CODE de um link direto para"},
