@@ -10,7 +10,7 @@
 /*/
 
 std::map<std::string, std::wstring> PORTUGUESE = {
-	{"translator",          L"Translated by Ryumarubr"},
+	{"translator",          L"Translated by <Ryumaru>"},
 
 	// UI.CPP
 	{"scanning",            L"Procurado os Temas..."},
