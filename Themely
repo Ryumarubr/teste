@@ -79,5 +79,5 @@ std::map<std::string, std::wstring> PORTUGUESE = {
 	// 3DSTHEM.ES.CPP
 	{"err_conn_site",      L"Falha ao conectar-se a %s."},
 	{"err_parse_resp",     L"Falha ao analisar a resposta de %s."},
-	{"err_dl_bgm",         L"Ocorreu um erro ao fazer o download da pré-carregamento do BGM."}
+	{"err_dl_bgm",         L"Ocorreu um erro ao fazer o download do pré-carregamento do BGM."}
 }
