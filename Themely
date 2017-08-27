@@ -67,7 +67,7 @@ std::map<std::string, std::wstring> PORTUGUESE = {
 	{"err_update_manual",  L"Se você ainda está tendo problemas, atualize manualmente."},
 	{"err_update_titledb", L"Se você ainda está tendo problemas, atualize através do FBI -> TitleDB"},
 	{"err_zip_dl_fail",    L"Falha ao baixar o arquivo ZIP"},
-	{"err_zip_invalid",    L"O arquivo ZIP esta invalidado"},
+	{"err_zip_invalid",    L"O arquivo ZIP esta danificado"},
 	{"err_zip_no_body",    L"O arquivo ZIP não contém um body_LZ.bin na raiz"},
 	// THEME.CPP
 	{"err_fail_open",      L"Ouve uma falha ao abrir %s."},
