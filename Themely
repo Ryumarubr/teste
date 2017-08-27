@@ -1,0 +1,83 @@
+// Themely - home menu manager
+// Copyright (c) 2017 Erman SAYIN
+
+#include <string>
+#include <map>
+
+/*/
+ * NOTES FOR TRANSLATORS:
+ * %i, %ls, and %s are dynamic variables, please don't touch those!
+/*/
+
+std::map<std::string, std::wstring> PORTUGUESE = {
+	{"translator",          L"Translated by Ryumarubr"},
+
+	// UI.CPP
+	{"scanning",            L"Procurado os Temas..."},
+	{"updating",            L"Atualizando..."},
+	{"error_message",       L"Ocorreu um erro. Sua versão do Themely é %s."},
+	{"press_start",         L"Pressione START para sair."},
+	{"themes",              L"%i tema%ls"}, // %ls is the plural suffix
+	{"plural_suffix",       L"s"},
+	{"qr_scanner",          L"Scanner de QR-CODE"},
+	{"by",                  L"por %ls"},
+	{"add_to_shuffle",      L"Adicionar ao embaralhador"},
+	{"remove_from_shuffle", L"Remover do embaralhador"},
+	{"install",             L"Instalar"},
+	{"w_o_bgm",             L"w/o BGM"},
+	{"fullscreen_prev",     L"Visualização em tela cheia"},
+	{"hold_delete",         L"[aguarde] deletando"},
+	{"bgm_prev",            L"BGM prévia"},
+	{"installing",          L"Instalando..."},
+	{"downloading",         L"Baixando..."},
+	{"new_update",          L"Há uma nova atualização"},
+	{"delete_prompt_1",     L"Você tem certeza que quer"},
+	{"delete_prompt_2",     L"deletar este Tema?"},
+	{"dump_prompt",         L"Fazer o Despejo  do tema instalado?"},
+	{"dump_prompt_warn",    L""},
+	{"playing",             L"Tocando..."},
+	{"no_themes_1",         L"Nenhum tema encontrado!"},
+	{"no_themes_2",         L"Toque no ícone de download no topo"},
+	{"no_themes_3",         L"Para acessar o navegador da 3DSThem.es."},
+	{"shuffle_count",       L"%i/10 tema%ls selecionado para o embaralhador"},
+	{"qr_explain_1",        L"Escanear um QR-CODE de um link direto"},
+	{"qr_explain_2",        L"um arquivo ZIP de um tema para fazer o download."},
+	{"qr_explain_3",        L"Vá para 3DSThemes, selecione um tema e clique no"},
+	{"qr_explain_4",        L"QR Code button to see the QR Code for that particular theme."},
+	{"search_4_themes",     L"Buscar pelo Tema"},
+	{"dump_current",        L"Corrente de despejo"},
+	{"scan_code",           L"Escanear Codigo"},
+	{"update_prompt",       L"Instalar esta atualização?"},
+	{"yes",                 L"Sim"},
+	{"no",                  L"Não"},
+	{"stop_bgm",            L"Pressione (Y) para parar."},
+	// THEME.CPP
+	{"no_desc",             L"[a descrição não está disponível]"},
+	{"unknown",             L"Desconhecido"},
+	{"install_reading",     L"Leitura %s..."},
+	{"install_writing",     L"Escrevendo em %s..."},
+
+	// ERRORS
+	// AUDIO.CPP
+	{"err_bgm_fail",       L"Falha ao tocar o BGM"},
+	// UI.CPP
+	{"err_texture",        L"Falha ao carregar as Texturas."},
+	// NETWORK.CPP
+	{"err_update_dl_fail", L"Falha ao fazer o download da atualização."},
+	{"err_update_manual",  L"Se você ainda está tendo problemas, atualize manualmente."},
+	{"err_update_titledb", L"Se você ainda está tendo problemas, atualize através do FBI -> TitleDB"},
+	{"err_zip_dl_fail",    L"Falha ao baixar o arquivo ZIP"},
+	{"err_zip_invalid",    L"O arquivo ZIP esta invalidado"},
+	{"err_zip_no_body",    L"O arquivo ZIP não contém um body_LZ.bin na raiz"},
+	// THEME.CPP
+	{"err_fail_open",      L"Ouve uma falha ao abrir %s."},
+	{"err_fail_read",      L"Ouve uma falha para ler %s."},
+	{"err_fail_write",     L"Falha ao escrever para %s."},
+	{"err_try_default",    L"Tente selecionar um dos temas padrões nas configurações do menu inicial antes de tentar novamente"},
+	{"err_bgm_too_big",    L"O arquivo BGM excedeu 3371008 bytes. Arquivos BGM maiores que esse tamanho podem apresentar problemas em seu dispositivo."},
+	{"err_no_dsp",         L"O despejo DSP não foi encontrado! Use DSP1 para despejar o firmware DSP necessário para reproduzir os arquivos de áudio."},
+	// 3DSTHEM.ES.CPP
+	{"err_conn_site",      L"Falha ao conectar-se a %s."},
+	{"err_parse_resp",     L"Falha ao analisar a resposta de %s."},
+	{"err_dl_bgm",         L"Ocorreu um erro ao fazer o download da pré-visualização do BGM."}
+}
