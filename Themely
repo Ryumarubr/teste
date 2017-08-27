@@ -27,7 +27,7 @@ std::map<std::string, std::wstring> PORTUGUESE = {
 	{"w_o_bgm",             L"w/o BGM"},
 	{"fullscreen_prev",     L"Prévia em tela cheia"},
 	{"hold_delete",         L"[aguarde] deletando"},
-	{"bgm_prev",            L"BGM Prévia"},
+	{"bgm_prev",            L"Prévia do BGM"},
 	{"installing",          L"Instalando..."},
 	{"downloading",         L"Baixando..."},
 	{"new_update",          L"Há uma nova atualização!"},
