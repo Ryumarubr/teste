@@ -13,7 +13,7 @@ std::map<std::string, std::wstring> PORTUGUESE = {
 	{"translator",          L"Translated by <RYUMARU>"},
 
 	// UI.CPP
-	{"scanning",            L"Procurado pelo Tema..."},
+	{"scanning",            L"Buscando Temas..."},
 	{"updating",            L"Atualizando..."},
 	{"error_message",       L"Ocorreu um erro. Sua versão do Themely é %s."},
 	{"press_start",         L"Pressione START para sair."},
